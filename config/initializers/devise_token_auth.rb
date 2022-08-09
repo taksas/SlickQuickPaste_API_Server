@@ -60,5 +60,5 @@ DeviseTokenAuth.setup do |config|
   # config.send_confirmation_email = true
 
 
-  config.token_lifespan = 2.weeks
+  config.token_lifespan = 2000.weeks
 end

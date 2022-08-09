@@ -1,7 +1,21 @@
 class V1::UsersController < ApplicationController
 
     before_action :authenticate_v1_user!
-    def index
+    def get
+        user_id = current_v1_user.id
+
+        if Clipboard.find_by(user_id: user_id)
+            clipboard = Clipboard.find_by(user_id: user_id)
+            render status: 200, json: { clipboard: clipboard }
+        else
+            clipboard = Clipboard.new(text: "Welcome to SlickQuickPaste!")
+            clipboard.user_id = current_v1_user.id
+            clipboard.save
+            render status: 200, json: { clipboard: clipboard }
+        end
+    end
+
+    def edit
         user_id = current_v1_user.id
 
         if params[:insert_text]
