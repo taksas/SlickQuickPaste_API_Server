@@ -1,0 +1,2 @@
+class Clipboard < ApplicationRecord
+end
