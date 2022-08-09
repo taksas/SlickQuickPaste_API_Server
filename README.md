@@ -1,24 +1,6 @@
-# README
+# API Server Application for SlickQuickPaste
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+SlickQuickPasteにおいて、クリップボードの内容をサーバー上に一時保存するためのAPIを提供します。
+API仕様は公開しているため、誰でも自由にクライアントを作成することが可能です。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##　ログイン
