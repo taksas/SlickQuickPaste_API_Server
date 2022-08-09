@@ -115,10 +115,10 @@ chunked
 
 ```
 content-type: application/json
-access-token: oJbyZQW-u-f1H5UAoc13aw
+access-token: upUZQMyGXjytY7v_PSZdWg
 uid: test@example.com
-client: uZyqom4rlUlDPL6ACathig
-expiry: 1661166192
+client: bNResPMAJbZSF1QXTqm9IA
+expiry: 1780970166
 token-type: Bearer
 ```
 
@@ -134,7 +134,7 @@ token-type: Bearer
 "clipboard": {
 "id": 2,
 "user_id": 1,
-"text": "hihihihi",
+"text": "S.Q.Pasteにクリップボードの内容を保存し、端末間で共有します。",
 "created_at": "2022-08-09T01:43:48.718Z",
 "updated_at": "2022-08-09T01:43:48.718Z"
 }
@@ -154,10 +154,10 @@ textプロパティがクリップボードの内容です。
 
 ```
 content-type: application/json
-access-token: oJbyZQW-u-f1H5UAoc13aw
+access-token: upUZQMyGXjytY7v_PSZdWg
 uid: test@example.com
-client: uZyqom4rlUlDPL6ACathig
-expiry: 1661166192
+client: bNResPMAJbZSF1QXTqm9IA
+expiry: 1780970166
 token-type: Bearer
 ```
 
@@ -167,7 +167,7 @@ token-type: Bearer
 
 ```
 {
-  "insert_text": "hihihihi"
+  "insert_text": "S.Q.Pasteでクリップボードの内容を書き換えまょう！"
 }
 ```
 
@@ -179,7 +179,7 @@ token-type: Bearer
 
 ### メアド認証とかしないならメアドパスワード要らなくない？
 
-全く以てその通りです。面倒なのでdevise token authのテンプレートを流用して作った関係上メアドパスワードが必要になりますが、適当なものを入力してください。
+全く以てその通りです。面倒なので適当に作った関係上メアドパスワード（という名称のカラム2つ）が必要になりますが、適当なものを入力してください。
 
 ### メアドパスワードの変更は？
 
