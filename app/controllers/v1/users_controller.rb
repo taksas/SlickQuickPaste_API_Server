@@ -18,9 +18,11 @@ class V1::UsersController < ApplicationController
     def edit
         user_id = current_v1_user.id
 
+        params = JSON.parse request.body.read
+
         if params["insert_text"]
             Clipboard.where(user_id: user_id).delete_all
-            text = params[:insert_text]
+            text = params["insert_text"]
             clipboard = Clipboard.new(text: text)
             clipboard.user_id = current_v1_user.id
             clipboard.save
