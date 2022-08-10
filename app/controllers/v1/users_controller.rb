@@ -18,7 +18,7 @@ class V1::UsersController < ApplicationController
     def edit
         user_id = current_v1_user.id
 
-        if params[:insert_text]
+        if params["insert_text"]
             Clipboard.where(user_id: user_id).delete_all
             text = params[:insert_text]
             clipboard = Clipboard.new(text: text)
