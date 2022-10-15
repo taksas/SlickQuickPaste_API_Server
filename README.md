@@ -6,6 +6,8 @@ API仕様は公開しているため、誰でも自由にクライアントを�
 
 Chrome拡張機能版のクライアントはこちら→　https://github.com/taksas/SlickQuickPaste_Cli_Chrome
 
+Android版、Win版の公開は未定です。
+
 ## これは何？
 
 クラウド上で管理するクリップボード機能を提供するシステムの、バックエンドを担当します。Ruby on RailsのAPIモードで構築しています。
